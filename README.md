@@ -1,53 +1,112 @@
-# 🎵 Music Hub
+<div align="center">
 
-> **Explora. Analiza. Descubre. Conecta con la música.**
+# 🎵 MUSIC HUB
 
-## 🎯 Objetivo
+### DIGITAL MUSIC INTELLIGENCE
 
-El objetivo de **Music Hub** es desarrollar una propuesta educativa para explorar, organizar y analizar información relacionada con la música.
+**Explore · Analyze · Discover**
 
-El proyecto busca presentar diferentes géneros musicales y sus principales características de una manera clara, organizada y fácil de comprender.
+<br>
 
-Además, este repositorio permite poner en práctica conceptos fundamentales de **Git, GitHub, control de versiones y documentación mediante Markdown**.
+![Status](https://img.shields.io/badge/STATUS-FOUNDATION-00D4FF?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSION-0.1.0-7C3AED?style=for-the-badge)
+![Platform](https://img.shields.io/badge/PLATFORM-GITHUB-181717?style=for-the-badge\&logo=github)
 
----
-
-## 🎵 Descripción del proyecto
-
-**Music Hub** es un proyecto educativo enfocado en la exploración de información musical.
-
-La propuesta consiste en organizar diferentes géneros y características musicales para facilitar su consulta y comparación.
-
-El proyecto comenzará como una base documental y podrá evolucionar posteriormente hacia una experiencia interactiva.
-
-> **Visión:** transformar una colección organizada de información musical en una experiencia digital para descubrir, comparar y analizar música.
+</div>
 
 ---
 
-## 📈 Estado actual del proyecto
+## 🎯 MISSION
 
-**Versión:** `v0.1.0`
+**Music Hub** is an educational technology project focused on exploring, organizing and understanding the diversity of music.
 
-**Estado:** 🟡 En desarrollo
+The project combines musical information with technology to create a structured environment where users can discover different genres, characteristics, instruments and cultural contexts.
 
-### Progreso inicial
-
-* [x] Crear repositorio.
-* [x] Crear README.
-* [x] Definir objetivo.
-* [x] Definir concepto del proyecto.
-* [ ] Crear catálogo musical.
-* [ ] Agregar análisis comparativo.
-* [ ] Desarrollar interfaz interactiva.
+> **Explore music. Understand its structure. Discover its identity.**
 
 ---
 
-## 👤 Autor
+## 🎵 PROJECT OVERVIEW
 
-**Nombre:** Manuel Jurado
+Music Hub begins as a digital knowledge base focused on musical genres.
 
-**Materia:** Tecnología High
+The initial project will organize information such as:
 
-**Proyecto:** Music Hub
+* 🎼 Musical genres
+* 🌎 Geographic and cultural origins
+* 🥁 Rhythmic characteristics
+* 🎸 Representative instruments
+* 🎚️ Production characteristics
+* 🌍 Cultural context
 
-**Plataforma:** GitHub
+The long-term objective is to transform this information into an interactive digital experience.
+
+---
+
+## 📈 PROJECT STATUS
+
+```text
+SYSTEM STATUS
+████████░░░░░░░░░░░░ 40%
+
+CURRENT PHASE
+FOUNDATION
+```
+
+### Current progress
+
+* [x] Create GitHub repository
+* [x] Define project identity
+* [x] Define project mission
+* [x] Define initial scope
+* [ ] Build musical intelligence system
+* [ ] Create interactive interface
+* [ ] Deploy web experience
+
+---
+
+## 🧭 PROJECT VISION
+
+```text
+              🎵 MUSIC
+                  │
+                  ▼
+          ┌───────────────┐
+          │   MUSIC HUB   │
+          └───────┬───────┘
+                  │
+        ┌─────────┼─────────┐
+        ▼         ▼         ▼
+     EXPLORE   ANALYZE   DISCOVER
+        │         │         │
+        └─────────┼─────────┘
+                  ▼
+          DIGITAL EXPERIENCE
+```
+
+---
+
+## 🛠️ INITIAL TECHNOLOGY
+
+| Technology | Purpose                       |
+| ---------- | ----------------------------- |
+| Git        | Version control               |
+| GitHub     | Repository and collaboration  |
+| Markdown   | Project documentation         |
+| GFM        | Advanced GitHub documentation |
+
+---
+
+## 👤 AUTHOR
+
+**Name:** TU NOMBRE
+
+**Subject:** Technology High
+
+**Project:** Music Hub
+
+**Repository:** `music-hub-proyecto`
+
+---
+
+> **Project principle:** every meaningful change should contribute to the evolution of the project.
