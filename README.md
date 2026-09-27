@@ -1,82 +1,53 @@
-# 🎵 Music Hub — Open Music Intelligence & Discovery Framework
+# 🎵 Music Hub
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1DB954&width=500&lines=Explora+la+diversidad+musical.;Analiza+patrones+y+m%C3%A9tricas.;Descubre+el+origen+del+sonido." alt="Typing SVG" />
-</p>
+> **Explora. Analiza. Descubre. Conecta con la música.**
 
-> **Un marco documental y analítico de código abierto diseñado para catalogar, descomponer y comprender la evolución de los géneros musicales a través del control de versiones.**
+## 🎯 Objetivo
 
----
+El objetivo de **Music Hub** es desarrollar una propuesta educativa para explorar, organizar y analizar información relacionada con la música.
 
-## 📋 Tabla de Contenidos
-- [🎯 Visión y Objetivos del Proyecto](#-visión-y-objetivos-del-proyecto)
-- [📖 Descripción Arquitectónica](#-descripción-arquitectónica)
-- [📈 Estado del Proyecto y Metodología](#-estado-del-proyecto-y-metodología)
-- [👤 Ficha Técnica del Autor](#-ficha-técnica-del-autor)
+El proyecto busca presentar diferentes géneros musicales y sus principales características de una manera clara, organizada y fácil de comprender.
+
+Además, este repositorio permite poner en práctica conceptos fundamentales de **Git, GitHub, control de versiones y documentación mediante Markdown**.
 
 ---
 
-## 🎯 Visión y Objetivos del Proyecto
+## 🎵 Descripción del proyecto
 
-El proyecto **Music Hub** nace con la misión de transformar la apreciación musical empírica en una metodología de análisis estructurado. 
+**Music Hub** es un proyecto educativo enfocado en la exploración de información musical.
 
-### 💡 Objetivos Específicos:
-1. **Descomponer** los géneros musicales en sus variables técnicas fundamentales (rítmica, armonía, instrumentación y producción).
-2. **Establecer** un estándar documental abierto mediante el uso de *GitHub Flavored Markdown* (GFM).
-3. **Demostrar** la aplicación de flujos de trabajo de ingeniería de software (Git/GitHub) en la gestión de contenidos culturales y educativos.
+La propuesta consiste en organizar diferentes géneros y características musicales para facilitar su consulta y comparación.
 
----
+El proyecto comenzará como una base documental y podrá evolucionar posteriormente hacia una experiencia interactiva.
 
-## 📖 Descripción Arquitectónica
-
-Music Hub funciona como un repositorio centralizado de datos musicales. A través de una estructura modular, permite auditar la evolución de distintos estilos sonoros, vinculando el contexto histórico-geográfico con métricas de producción digital y acústica.
-                               ┌───────────────────────────┐
-                               │   MUSIC HUB REPOSITORY    │
-                               └─────────────┬─────────────┘
-                                             │
-                      ┌──────────────────────┴──────────────────────┐
-                      ▼                                             ▼
-          ┌──────────────────────┐                      ┌──────────────────────┐
-          │ DOCUMENTACIÓN (GFM)  │                      │   CONTROL DE GIT     │
-          └──────────┬───────────┘                      └──────────┬───────────┘
-                     │                                             │
-      ┌──────────────┴──────────────┐               ┌──────────────┴──────────────┐
-      ▼                             ▼               ▼                             ▼
-  Analítica                   Estructura      Trazabilidad                   Historial de
-   Musical                    de Datos         de Cambios                     Commits
----
-
-## 📈 Estado del Proyecto y Metodología
-
-* **Versión del Framework:** `v0.1.0-alpha`
-* **Metodología de Desarrollo:** Control de versiones atómico (Conventional Commits).
-* **Ciclo de Vida:** 🟡 Fase Inicial — Estructuración de Documentación.
-
-### 📋 Lista de Control de Desarrollo (Sprint Initial)
-- [x] Configuración del repositorio remoto e infraestructura inicial.
-- [x] Definición de objetivos arquitectónicos y alcance técnico.
-- [x] Implementación de diagramas de flujo en sintaxis de texto.
-- [ ] Incorporación de matriz de análisis comparativo de géneros.
-- [ ] Despliegue de guía de comandos de clonación local.
-- [ ] Integración de hoja de ruta (*Roadmap*) para versiones futuras.
+> **Visión:** transformar una colección organizada de información musical en una experiencia digital para descubrir, comparar y analizar música.
 
 ---
 
-## 👤 Ficha Técnica del Autor
+## 📈 Estado actual del proyecto
 
-| Campo | Información |
-| :--- | :--- |
-| **Desarrollador Principal** | [TU NOMBRE COMPLETO] |
-| **Institución / Materia** | Tecnología High |
-| **Proyecto** | Music Hub — Open Discovery Framework |
-| **Plataforma de Alojamiento** | GitHub |
-Datos para registrar en GitHub:
-Commit message: docs: create Music Hub project foundation
+**Versión:** `v0.1.0`
 
-Extended description:
+**Estado:** 🟡 En desarrollo
 
-Plaintext
-Established initial project architecture and scope for Music Hub.
-- Added interactive header SVG and project summary.
-- Defined core vision, objectives, and ASCII architecture diagram.
-- Created sprint development checklist and author technical sheet.
+### Progreso inicial
+
+* [x] Crear repositorio.
+* [x] Crear README.
+* [x] Definir objetivo.
+* [x] Definir concepto del proyecto.
+* [ ] Crear catálogo musical.
+* [ ] Agregar análisis comparativo.
+* [ ] Desarrollar interfaz interactiva.
+
+---
+
+## 👤 Autor
+
+**Nombre:** Manuel Jurado
+
+**Materia:** Tecnología High
+
+**Proyecto:** Music Hub
+
+**Plataforma:** GitHub
