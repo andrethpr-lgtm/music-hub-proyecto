@@ -30,22 +30,20 @@ El proyecto **Music Hub** nace con la misión de transformar la apreciación mus
 ## 📖 Descripción Arquitectónica
 
 Music Hub funciona como un repositorio centralizado de datos musicales. A través de una estructura modular, permite auditar la evolución de distintos estilos sonoros, vinculando el contexto histórico-geográfico con métricas de producción digital y acústica.
-                          ┌───────────────────────────┐
-                          │   MUSIC HUB REPOSITORY    │
-                          └─────────────┬─────────────┘
-                                        │
-                 ┌──────────────────────┴──────────────────────┐
-                 ▼                                             ▼
-     ┌──────────────────────┐                      ┌──────────────────────┐
-     │ DOCUMENTACIÓN (GFM)  │                      │   CONTROL DE GIT     │
-     └──────────┬───────────┘                      └──────────┬───────────┘
-                │                                             │
- ┌──────────────┴──────────────┐               ┌──────────────┴──────────────┐
- ▼                             ▼               ▼                             ▼
-Analítica                   Estructura      Trazabilidad                   Historial de
-Musical                    de Datos         de Cambios                     Commits
-
-
+                               ┌───────────────────────────┐
+                               │   MUSIC HUB REPOSITORY    │
+                               └─────────────┬─────────────┘
+                                             │
+                      ┌──────────────────────┴──────────────────────┐
+                      ▼                                             ▼
+          ┌──────────────────────┐                      ┌──────────────────────┐
+          │ DOCUMENTACIÓN (GFM)  │                      │   CONTROL DE GIT     │
+          └──────────┬───────────┘                      └──────────┬───────────┘
+                     │                                             │
+      ┌──────────────┴──────────────┐               ┌──────────────┴──────────────┐
+      ▼                             ▼               ▼                             ▼
+  Analítica                   Estructura      Trazabilidad                   Historial de
+   Musical                    de Datos         de Cambios                     Commits
 ---
 
 ## 📈 Estado del Proyecto y Metodología
