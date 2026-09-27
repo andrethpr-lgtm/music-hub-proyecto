@@ -30,3 +30,55 @@ El proyecto **Music Hub** nace con la misión de transformar la apreciación mus
 ## 📖 Descripción Arquitectónica
 
 Music Hub funciona como un repositorio centralizado de datos musicales. A través de una estructura modular, permite auditar la evolución de distintos estilos sonoros, vinculando el contexto histórico-geográfico con métricas de producción digital y acústica.
+                          ┌───────────────────────────┐
+                          │   MUSIC HUB REPOSITORY    │
+                          └─────────────┬─────────────┘
+                                        │
+                 ┌──────────────────────┴──────────────────────┐
+                 ▼                                             ▼
+     ┌──────────────────────┐                      ┌──────────────────────┐
+     │ DOCUMENTACIÓN (GFM)  │                      │   CONTROL DE GIT     │
+     └──────────┬───────────┘                      └──────────┬───────────┘
+                │                                             │
+ ┌──────────────┴──────────────┐               ┌──────────────┴──────────────┐
+ ▼                             ▼               ▼                             ▼
+Analítica                   Estructura      Trazabilidad                   Historial de
+Musical                    de Datos         de Cambios                     Commits
+
+
+---
+
+## 📈 Estado del Proyecto y Metodología
+
+* **Versión del Framework:** `v0.1.0-alpha`
+* **Metodología de Desarrollo:** Control de versiones atómico (Conventional Commits).
+* **Ciclo de Vida:** 🟡 Fase Inicial — Estructuración de Documentación.
+
+### 📋 Lista de Control de Desarrollo (Sprint Initial)
+- [x] Configuración del repositorio remoto e infraestructura inicial.
+- [x] Definición de objetivos arquitectónicos y alcance técnico.
+- [x] Implementación de diagramas de flujo en sintaxis de texto.
+- [ ] Incorporación de matriz de análisis comparativo de géneros.
+- [ ] Despliegue de guía de comandos de clonación local.
+- [ ] Integración de hoja de ruta (*Roadmap*) para versiones futuras.
+
+---
+
+## 👤 Ficha Técnica del Autor
+
+| Campo | Información |
+| :--- | :--- |
+| **Desarrollador Principal** | [TU NOMBRE COMPLETO] |
+| **Institución / Materia** | Tecnología High |
+| **Proyecto** | Music Hub — Open Discovery Framework |
+| **Plataforma de Alojamiento** | GitHub |
+Datos para registrar en GitHub:
+Commit message: docs: create Music Hub project foundation
+
+Extended description:
+
+Plaintext
+Established initial project architecture and scope for Music Hub.
+- Added interactive header SVG and project summary.
+- Defined core vision, objectives, and ASCII architecture diagram.
+- Created sprint development checklist and author technical sheet.
